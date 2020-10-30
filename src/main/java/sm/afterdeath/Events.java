@@ -1,6 +1,9 @@
 package sm.afterdeath;
 
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
@@ -18,13 +21,6 @@ public class Events implements Listener {
 
     @EventHandler
     public void ClearAfterDeath(PlayerDeathEvent e){
-        PlayerInventory playerInventory = e.getEntity().getInventory();
-
-        //ItemStack itemTodelete = e.getEntity().getInventory().getContents()[rand];
-        //e.getEntity().getInventory().removeItem(itemTodelete);
-
-
-
         List<ItemStack> itemList = Arrays.asList(e.getEntity().getInventory().getContents());
         int rand = new Random().nextInt(itemList.size()-1);
         int rand2 = new Random().nextInt(itemList.size()-1);
@@ -37,8 +33,14 @@ public class Events implements Listener {
             }
             else{
                 if(counter == rand || counter == rand2 ||counter ==rand3){
-                    e.getEntity().getInventory().removeItem(item);
-                    e.getEntity().sendMessage("Utraciłeś "+item.getItemMeta().getDisplayName());
+                    if(!item.getType().equals(Material.AIR)){
+                        Location loc = e.getEntity().getLocation();
+                        loc.add(0.5,0.5,0.5);
+                        e.getEntity().sendMessage(ChatColor.BLUE+"Zgubiłeś: "+item.getItemMeta().getDisplayName());
+                        e.getEntity().getInventory().removeItem(item);
+                        e.getEntity().getWorld().dropItemNaturally(loc,item);
+                        e.getEntity().sendMessage(ChatColor.BLUE+"a tu zdechłeś: "+loc.toString());
+                    }
                 }
 
             }

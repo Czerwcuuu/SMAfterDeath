@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="135176db-999a-4a7f-9a67-02e21113b202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sm/afterdeath/Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sm/afterdeath/Events.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AfterDeath-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AfterDeath-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
@@ -49,11 +26,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadDocsAutomatically" value="true" />
@@ -64,12 +36,11 @@
   <component name="ProjectId" id="1jSllvy7CcIPDHNKrvtE9JAJoJg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunManager">
@@ -100,7 +71,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -114,42 +84,36 @@
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
     <state x="1712" y="263" key="#Auto_Import" timestamp="1603805970240">
       <screen x="1680" y="0" width="1920" height="1040" />
     </state>
     <state x="1712" y="263" key="#Auto_Import/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603805970240" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1603837296337">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="543" y="334" key="FileChooserDialogImpl" timestamp="1604058797659">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/-1680.38.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1603837296337" />
-    <state width="1620" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603807141422" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1603837296337">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="543" y="334" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1920.1040@0.0.1680.1010" timestamp="1604058797659" />
+    <state x="2300" y="344" key="FileChooserDialogImpl/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603957398927" />
+    <state width="1620" height="266" key="GridCell.Tab.0.bottom" timestamp="1604065884673">
+      <screen x="1680" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/-1680.38.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1603837296337" />
-    <state width="1620" height="269" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603807141422" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1603837296336">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1620" height="266" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1604065884673" />
+    <state width="1620" height="266" key="GridCell.Tab.0.center" timestamp="1604065884672">
+      <screen x="1680" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/-1680.38.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1603837296336" />
-    <state width="1620" height="269" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603807141422" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1603837296337">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1620" height="266" key="GridCell.Tab.0.center/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1604065884672" />
+    <state width="1620" height="266" key="GridCell.Tab.0.left" timestamp="1604065884672">
+      <screen x="1680" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/-1680.38.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1603837296337" />
-    <state width="1620" height="269" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1603807141422" />
+    <state width="1620" height="266" key="GridCell.Tab.0.left/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1604065884672" />
+    <state width="1620" height="266" key="GridCell.Tab.0.right" timestamp="1604065884672">
+      <screen x="1680" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1620" height="266" key="GridCell.Tab.0.right/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1604065884672" />
+    <state x="2216" y="413" key="com.intellij.ide.util.TipDialog" timestamp="1604060662818">
+      <screen x="1680" y="0" width="1920" height="1040" />
+    </state>
+    <state x="469" y="401" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1920.1040@0.0.1680.1010" timestamp="1604058844002" />
+    <state x="2216" y="413" key="com.intellij.ide.util.TipDialog/0.0.1680.1010/1680.0.1920.1040@1680.0.1920.1040" timestamp="1604060662818" />
   </component>
 </project>
